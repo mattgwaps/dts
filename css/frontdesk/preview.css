@@ -1,0 +1,87 @@
+body{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.form{
+    border:1px solid black;
+    width:80%;
+}
+#brandlogo{
+    width:90px;
+    height:50%;
+    margin-left:10px; 
+    margin-top: 10px;
+}
+.row1{
+    border-bottom:1px solid black;
+}
+.row2{
+    border-bottom:1px solid black;
+}
+.row3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding:15px;
+    border-bottom:1px solid black;
+}
+.row3-item1{
+    padding:15px;
+    border:1px solid black;   
+}
+.row3-item2{
+    padding:15px;
+    border:1px solid black;   
+}
+.row3-item3{
+    padding:15px;
+    border:1px solid black;   
+}
+.row4{
+    font-size: 10px;
+    border-bottom:1px solid black;
+    height:60px;
+}
+.row4-item1{
+    margin-left:10px;
+    height:20px;
+    line-height:10px;
+}
+.row5{
+    display:flex;
+    justify-content:space-between;
+    border-bottom:1px solid black;
+    height:40px;
+    line-height:10px;
+}
+.row5-item4{
+    display:flex;
+    margin-right:10px;
+}
+.row6{
+    display:flex;
+    flex-direction:column;
+    border-bottom:1px solid black;
+}
+.row6-items{
+    margin:5px 0px 0px 5px;
+}
+.row7{
+    display:flex;
+    justify-content:space-between;
+    border-bottom:1px solid black;
+    height:40px;
+    line-height:10px;
+}
+.row7-item4{
+    display:flex;
+    margin-right:10px;
+}
+.row7-item3{
+    display:flex;
+    margin-right:100px;
+}
+.row8-items{
+    margin:5px 0px 0px 5px;
+}

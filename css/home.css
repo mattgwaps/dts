@@ -1,0 +1,34 @@
+body {
+    background-image: url('/DENR/img/ur.jpg');
+}
+    /* Side Navbar */
+    .side-nav {
+      height: 100vh;
+      width: 170px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #343a40;
+      padding-top: 3.5rem; 
+    }
+
+    .side-nav .nav-link {
+      color: #fff; /* Text color */
+    }
+    .side-nav .nav-link:hover {
+      background-color: #495057; /* Hover color */
+    }
+
+    /* Top Navbar */
+    .top-nav {
+      background-color: #213438; /* Navbar background color */
+    }
+
+    .top-nav .navbar-brand,
+    .top-nav .nav-link {
+      color: #fff; /* Text color */
+    }
+
+    .top-nav .nav-link:hover {
+      color: #fff; /* Hover color */
+    }

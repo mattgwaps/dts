@@ -1,0 +1,74 @@
+.login-page {
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+  }
+  .form {
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 50px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(86px);
+  }
+  .logo {
+    margin-bottom: 30px;
+  }
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  .form .message {
+    margin: 15px 0 0;
+    color: #333;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .form .message a {
+    color: #0062cc;
+    text-decoration: none;
+  }
+  .form .message a:hover {
+    text-decoration: underline;
+  }
+  body {
+    background-image: url("/DENR/img/denr.jpg");
+    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 1900px 800px;
+    background-size: cover;
+  }
+  p{
+    color:white;
+    font-size: large;
+  }
+  input[type='text'], input[type='password']{
+    padding:5px 10px;
+    margin-bottom:10px;
+    border-radius:5px;
+    outline:none;
+    border:none;
+    font-size:18px;
+    width:100%;
+    transition:.10s;
+  
+  }
+  input[type='text']:focus, input[type='password']:focus{
+    outline:3px solid lime;
+  }
+  input[type='submit']{
+    padding:5px 10px;
+    border-radius:5px;
+    outline:none;
+    border:none;
+    font-size:18px;
+    cursor:pointer;
+    width:50%;
+  }
+  input[type='submit']:hover{
+    opacity: .9;
+  }

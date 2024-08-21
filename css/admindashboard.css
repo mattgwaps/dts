@@ -1,0 +1,32 @@
+.rows{
+    justify-content:space-evenly;
+    display:flex;
+    flex-direction:row;
+  }
+  .items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; 
+    height: 200px; 
+    border: 2px solid #ccc;
+    text-decoration: none;  
+    font-weight:bold;
+    background:#3876BF;
+    border-radius:50px 10px;
+    text-align:center;
+  }
+  .items:hover{
+    background:#00CED1;
+    transition:.5s;
+    cursor:pointer;
+  }
+  .items img{
+    width: 100px;
+    height: auto;
+    align-items:center;
+    justify-content:center;
+  }
+  .items p{
+    text-align:center; text-decoration:none; color:#fff;
+  }
